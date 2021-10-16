@@ -1,0 +1,33 @@
+*{
+
+}
+.mainSection{
+  display: block;
+  position: relative;
+  height:50%;
+  width: 100%;
+
+}
+.profileAbout{
+  position: relative;
+  float: left;
+  top:0;
+  width: 20%;
+  margin: 2% 0 0 2%;
+  height: 90%;
+  border-bottom: 1px solid grey;
+
+
+}
+.profileInfo{
+  position: relative;
+  top:0;
+  float: right;
+  width: 65%;
+  margin: 0% 2% 0 0;
+  height: 80%;
+
+  border-radius: 5px;
+
+
+}

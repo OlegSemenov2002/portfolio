@@ -1,0 +1,27 @@
+.profile{
+  width: 100%;
+  height: 100%;
+}
+.profileImage{
+  position: relative;
+  display: block;
+  margin:10% 10% 10% 10%;
+  width: 80%;
+  height: 60% ;
+}
+.profilePhoto{
+  display: block;
+  position: relative;
+  width: 100%;
+  height: 100%;
+
+}
+#name{
+  padding-left: 10%;
+height: 10%;
+}
+#surname{
+  padding-left: 10%;
+
+height: 10%;
+}

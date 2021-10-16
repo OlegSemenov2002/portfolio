@@ -1,0 +1,10 @@
+.block{
+  position: relative;
+  border-bottom: 1px solid grey;
+  width: 98%;
+  height: 20%;
+  margin: 1%;
+}
+span{
+
+}

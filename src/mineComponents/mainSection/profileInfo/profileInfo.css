@@ -1,0 +1,17 @@
+.profileInfoDesk{
+  height: 100%;
+  width: 100%;
+}
+.profileInfoDesk>ul{
+  list-style-type: none;
+
+  height: 100%;
+}
+.profileInfoDesk>li{
+  height: 30%;
+}
+.contact{
+  height: 10%;
+  width: 95%;
+  padding-left: 5%;
+}
