@@ -1,12 +1,9 @@
-*{
 
-}
 .mainSection{
   display: block;
   position: relative;
   height:50%;
   width: 100%;
-
 }
 .profileAbout{
   position: relative;
@@ -15,8 +12,6 @@
   margin: 2% 0 0 2%;
   height: 90%;
   border-bottom: 1px solid grey;
-
-
 }
 .profileInfo{
   position: relative;
@@ -24,8 +19,29 @@
   width: 65%;
   margin: 0% 2% 0 0;
   height: 80%;
-
   border-radius: 5px;
-
+}
+@media screen and (max-width: 1000px){
+  .mainSection{
+    display: block;
+    position: relative;
+    height:50%;
+    width: 100%;
+  }
+  .profileAbout{
+    position: relative;
+    width: 96%;
+    padding:0;
+    height: 40%;
+    border-bottom: 1px solid grey;
+  }
+  .profileInfo{
+    position: relative;
+    width: 96%;
+    margin: 0;
+    padding:0;
+    height: 50%;
+    border-radius: 5px;
+  }
 
 }

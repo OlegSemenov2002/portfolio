@@ -1,0 +1,13 @@
+.dark{
+ font-size: 2vh;
+ height: 100%;
+ width: 100%;
+ background-color:#373737;
+ color:#f4f4f4;
+}
+.light{
+ height: 100%;
+ width: 100%;
+ background-color:#FFFFF0;
+ color: #111;
+}
