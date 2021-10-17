@@ -7,7 +7,7 @@
 
   height: 100%;
 }
-.profileInfoDesk>li{
+.profileInfoDesk>ul>li{
   height: 30%;
 }
 .contact{
@@ -18,7 +18,6 @@
 @media screen and (max-width: 1000px){
   .profileInfoDesk{
     padding-left: 2%;
-    font-size: 2vh;
     margin: 0;
     height: 100%;
     width: 100%;
@@ -26,10 +25,12 @@
   .profileInfoDesk>ul{
     list-style-type: none;
     width: 100%;
-    height: 70%;
+    height: 90%;
   }
-  .profileInfoDesk>li{
+  .profileInfoDesk>ul>li{
+    display: block;
     height: 30%;
+    width: 100%;
   }
   .contact{
     height: 10%;

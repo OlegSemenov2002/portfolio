@@ -9,12 +9,24 @@
 
 
 .App{
+
   position: static;
   height: 100vh;
   width: 100%;
 }
 @media screen and (max-width: 1000px){
   .App{
-    height: 200vh;
+    height: 130vh;
+    font-size: 24px;
   }
 }
+ @media screen and (max-height:1100px){
+  .App{
+    font-size: 2vh;
+  }
+}
+/* @media screen and (min-height: 1400px){
+  .App{
+    font-size: 1.8vh;
+  }
+} */
